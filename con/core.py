@@ -10,6 +10,7 @@ from sqlalchemy.orm import sessionmaker
 from con.file import FileConfig
 
 
+
 class Connection(object):
 
     def __init__(self, config=FileConfig()):

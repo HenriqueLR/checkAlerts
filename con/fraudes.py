@@ -11,6 +11,7 @@ from sqlalchemy import Column, Integer, String, Boolean
 Base = declarative_base()
 
 
+
 class Alerts(Base):
     __tablename__ = 'alerts'
 

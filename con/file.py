@@ -7,6 +7,8 @@ Created on 30/04/2014
 from ConfigParser import ConfigParser, Error
 import os
 
+
+
 class FileConfig(object):
 
     def __init__(self):

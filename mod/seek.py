@@ -8,6 +8,7 @@ Created on 30/04/2014
 from con.fraudes import Alerts, TempAlerts, Authani
 
 
+
 class Query(object):
 
 

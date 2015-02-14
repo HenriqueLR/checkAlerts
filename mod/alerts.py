@@ -13,6 +13,7 @@ import commands
 from con.fraudes import TempAlerts, Alerts
 
 
+
 class Alerts(object):
 
     def __init__(self, cq = Connection()):
@@ -72,4 +73,3 @@ class Alerts(object):
     def temp_clean(self, sigla):
         trans = str(sigla)
         self.__spw.factor_clean(trans)
-
